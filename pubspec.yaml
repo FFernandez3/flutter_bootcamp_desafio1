@@ -1,4 +1,4 @@
-name: mi_primer_app
+name: desafio1
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -23,6 +23,7 @@ dependencies:
   shared_preferences: ^2.3.3
   cupertino_icons: ^1.0.8
   just_audio: ^0.9.42
+  carousel_slider: ^4.2.1
 
 
 
