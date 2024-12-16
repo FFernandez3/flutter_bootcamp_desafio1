@@ -167,8 +167,8 @@ class AnimalCarousel extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(18.0),
                 child: SizedBox(
-                  height: size.height * 0.4, 
-                  width: size.width * 0.4, 
+                  height: size.height * 0.4,
+                  width: size.width * 1.1,
                   child: AnimalCard(animal: animal),
                 ),
               ),
@@ -211,7 +211,6 @@ class _AnimalCardState extends State<AnimalCard> {
     player.dispose();
     super.dispose();
   }
-
 
   void toggleAudio() {
     if (isPlaying) {

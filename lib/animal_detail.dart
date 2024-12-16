@@ -143,7 +143,7 @@ class AnimalDetailPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 60, vertical: 15),
+                          horizontal: 40, vertical: 15),
                     ),
                     child: const Text(
                       'Get started',
